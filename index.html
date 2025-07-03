@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Improved Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stopwatch</h1>
+  <div id="timer">00:00:00.000</div>
+
+  <div class="buttons">
+    <button id="startBtn" class="start" onclick="start()">Start</button>
+    <button id="pauseBtn" class="pause" onclick="pause()" disabled>Pause</button>
+    <button class="reset" onclick="reset()">Reset</button>
+    <button class="lap" onclick="lap()" disabled>Lap</button>
+  </div>
+
+  <ul id="laps"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
